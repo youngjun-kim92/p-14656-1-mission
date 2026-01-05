@@ -33,4 +33,11 @@ public class BaseInitData {
             }
         }
     }
+
+    private void work2(){
+        log.debug("기존 Post 전체 조회");
+        for (Post post : postService.findAll()) {
+            log.debug("Existing Post: {}", post);
+        }
+    }
 }
