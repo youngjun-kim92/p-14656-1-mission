@@ -1,12 +1,12 @@
 plugins {
     java
-    id("org.springframework.boot") version "4.0.1"
+    id("org.springframework.boot") version "4.0.0"
     id("io.spring.dependency-management") version "1.1.7"
 }
 
 group = "com"
 version = "0.0.1-SNAPSHOT"
-description = "p-14656-1"
+description = "Demo project for Spring Boot"
 
 java {
     toolchain {
